@@ -12,6 +12,7 @@ strategy:
   matrix:   
     Python37:
       python.version: '3.7'
+  maxParallel: '1' # Maximum number of jobs running in parallel.
 
 steps:
 - task: UsePythonVersion@0
